@@ -1,92 +1,90 @@
-[14Sep2021 18:03:59.459] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\Harold Arriola\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.58, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[14Sep2021 18:03:59.463] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Oracle Corporation
-[14Sep2021 18:04:01.937] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Harold Arriola\.gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
-[18:04:07] [Render thread/WARN]: Assets URL 'union:/C:/Users/Harold%20Arriola/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.58_mapped_official_1.17.1/forge-1.17.1-37.0.58_mapped_official_1.17.1-recomp.jar%2374!/assets/.mcassetsroot' uses unexpected schema
-[18:04:07] [Render thread/WARN]: Assets URL 'union:/C:/Users/Harold%20Arriola/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.58_mapped_official_1.17.1/forge-1.17.1-37.0.58_mapped_official_1.17.1-recomp.jar%2374!/data/.mcassetsroot' uses unexpected schema
-[14Sep2021 18:04:07.270] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:04:07] [Render thread/INFO]: Setting user: Dev
-[18:04:07] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[18:04:08] [modloading-worker-11/INFO]: Forge mod loading, version 37.0.58, for MC 1.17.1 with MCP 20210706.113038
-[18:04:08] [modloading-worker-11/INFO]: MinecraftForge v37.0.58 Initialized
-[14Sep2021 18:04:09.247] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[18:04:09] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
-[14Sep2021 18:04:09.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Sep2021 18:04:10.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 37.0.58 Target: 37.0.59
-[18:04:14] [Render thread/INFO]: OpenAL initialized.
-[18:04:14] [Render thread/INFO]: Sound engine started
-[18:04:14] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[18:04:14] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[18:04:14] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[18:04:14] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[18:04:14] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[18:04:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[18:04:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18:04:16] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[18:04:16] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18:04:16] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[18:04:16] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[18:04:45] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:04:45] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:04:45] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:04:45] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:04:45] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:04:45] [Render thread/INFO]: Reloading ResourceManager: Default, main, 
-[18:04:46] [Render thread/INFO]: Loaded 7 recipes
-[18:04:46] [Render thread/INFO]: Loaded 1137 advancements
-[18:04:46] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[18:04:47] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:04:47] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:04:47] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:04:47] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:04:47] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:04:47] [Render thread/INFO]: Reloading ResourceManager: Default, main, 
-[18:04:48] [Render thread/INFO]: Loaded 7 recipes
-[18:04:48] [Render thread/INFO]: Loaded 1137 advancements
-[18:04:48] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[14Sep2021 18:04:49.225] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:04:49] [Server thread/INFO]: Starting integrated minecraft server version 1.17.1
-[18:04:49] [Server thread/INFO]: Generating keypair
-[18:04:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:04:49] [Render thread/INFO]: Preparing spawn area: 0%
-[18:04:50] [Render thread/INFO]: Preparing spawn area: 0%
-[18:04:51] [Render thread/INFO]: Preparing spawn area: 1%
-[18:04:51] [Render thread/INFO]: Preparing spawn area: 1%
-[18:04:51] [Render thread/INFO]: Preparing spawn area: 1%
-[18:04:52] [Render thread/INFO]: Preparing spawn area: 25%
-[18:04:52] [Render thread/INFO]: Time elapsed: 2740 ms
-[18:04:52] [Server thread/INFO]: Changing view distance to 11, from 10
-[18:04:53] [Netty Local Client IO #0/INFO]: Connected to a modded server.
-[18:04:53] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@28b5cb44
-[18:04:53] [Server thread/INFO]: Dev[local:E:6c70503c] logged in with entity id 148 at (106.5359898927129, 70.0, 129.935888686099)
-[18:04:53] [Server thread/INFO]: Dev joined the game
-[18:04:54] [Server thread/INFO]: Saving and pausing game...
-[18:04:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
-[18:04:54] [Render thread/INFO]: Loaded 70 advancements
-[18:04:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
-[18:04:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
-[18:06:27] [Server thread/INFO]: Dev has made the advancement [Acquire Hardware]
-[18:06:27] [Render thread/INFO]: [CHAT] Dev has made the advancement [Acquire Hardware]
-[18:06:27] [Render thread/INFO]: Loaded 96 advancements
-[18:06:30] [Server thread/INFO]: Saving and pausing game...
-[18:06:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
-[18:06:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
-[18:06:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
-[18:11:28] [Render thread/INFO]: Loaded 98 advancements
-[18:22:22] [Server thread/INFO]: Saving and pausing game...
-[18:22:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
-[18:22:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
-[18:22:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
-[18:22:22] [Server thread/INFO]: Dev lost connection: Disconnected
-[18:22:22] [Server thread/INFO]: Dev left the game
-[18:22:22] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[18:22:22] [Server thread/INFO]: Stopping server
-[18:22:22] [Server thread/INFO]: Saving players
-[18:22:22] [Server thread/INFO]: Saving worlds
-[18:22:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
-[18:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
-[18:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
-[18:22:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (addedLampsTest): All chunks are saved
-[18:22:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:22:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:22:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:22:25] [Render thread/INFO]: Stopping!
+[15Sep2021 09:22:13.529] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\Harold Arriola\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.58, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[15Sep2021 09:22:13.537] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Oracle Corporation
+[15Sep2021 09:22:18.435] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Harold Arriola\.gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
+[09:22:30] [Render thread/WARN]: Assets URL 'union:/C:/Users/Harold%20Arriola/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.58_mapped_official_1.17.1/forge-1.17.1-37.0.58_mapped_official_1.17.1-recomp.jar%2374!/assets/.mcassetsroot' uses unexpected schema
+[09:22:30] [Render thread/WARN]: Assets URL 'union:/C:/Users/Harold%20Arriola/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.58_mapped_official_1.17.1/forge-1.17.1-37.0.58_mapped_official_1.17.1-recomp.jar%2374!/data/.mcassetsroot' uses unexpected schema
+[15Sep2021 09:22:30.436] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:22:30] [Render thread/INFO]: Setting user: Dev
+[09:22:30] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[09:22:33] [modloading-worker-1/INFO]: Forge mod loading, version 37.0.58, for MC 1.17.1 with MCP 20210706.113038
+[09:22:33] [modloading-worker-1/INFO]: MinecraftForge v37.0.58 Initialized
+[15Sep2021 09:22:35.656] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[09:22:36] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[15Sep2021 09:22:37.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Sep2021 09:22:39.355] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 37.0.58 Target: 37.0.60
+[09:22:51] [Render thread/INFO]: OpenAL initialized.
+[09:22:51] [Render thread/INFO]: Sound engine started
+[09:22:51] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[09:22:51] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[09:22:51] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:22:52] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:22:52] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:22:52] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:22:52] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:22:57] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09:22:57] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:22:57] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09:22:57] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[09:23:06] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:23:06] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:23:06] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:23:06] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:23:06] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:23:06] [Render thread/INFO]: Reloading ResourceManager: Default, main, 
+[09:23:09] [Render thread/INFO]: Loaded 7 recipes
+[09:23:11] [Render thread/INFO]: Loaded 1137 advancements
+[09:23:12] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[09:23:14] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:23:14] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:23:14] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:23:14] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:23:14] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:23:14] [Render thread/INFO]: Reloading ResourceManager: Default, main, 
+[09:23:17] [Render thread/INFO]: Loaded 7 recipes
+[09:23:19] [Render thread/INFO]: Loaded 1137 advancements
+[09:23:19] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[15Sep2021 09:23:21.464] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:23:21] [Server thread/INFO]: Starting integrated minecraft server version 1.17.1
+[09:23:21] [Server thread/INFO]: Generating keypair
+[09:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:23:23] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:27] [Render thread/INFO]: Preparing spawn area: 0%
+[09:23:28] [Render thread/INFO]: Preparing spawn area: 37%
+[09:23:28] [Render thread/INFO]: Preparing spawn area: 83%
+[09:23:28] [Render thread/INFO]: Time elapsed: 5831 ms
+[09:23:28] [Server thread/INFO]: Changing view distance to 11, from 10
+[09:23:30] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[09:23:30] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@706aa9cc
+[09:23:30] [Server thread/INFO]: Dev[local:E:41669a46] logged in with entity id 159 at (50.02635489883538, 75.23757124668579, 135.7900966947559)
+[09:23:30] [Server thread/INFO]: Dev joined the game
+[09:23:31] [Server thread/INFO]: Saving and pausing game...
+[09:23:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
+[09:23:31] [Render thread/INFO]: Loaded 98 advancements
+[09:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
+[09:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
+[09:24:01] [Server thread/INFO]: Saving and pausing game...
+[09:24:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
+[09:24:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
+[09:24:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
+[09:24:03] [Server thread/INFO]: Dev lost connection: Disconnected
+[09:24:03] [Server thread/INFO]: Dev left the game
+[09:24:03] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[09:24:03] [Server thread/INFO]: Stopping server
+[09:24:03] [Server thread/INFO]: Saving players
+[09:24:03] [Server thread/INFO]: Saving worlds
+[09:24:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:overworld
+[09:24:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_nether
+[09:24:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[addedLampsTest]'/minecraft:the_end
+[09:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (addedLampsTest): All chunks are saved
+[09:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:24:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:24:07] [Render thread/INFO]: Stopping!

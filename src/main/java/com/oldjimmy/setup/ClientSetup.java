@@ -24,6 +24,6 @@ public class ClientSetup {
         LightAxe light_axe = Registration.LIGHTAXE.get();
         LightShovel light_shovel = Registration.LIGHTSHOVEL.get();
         LightSword light_sword = Registration.LIGHTSWORD.get();
-        LightSource light_source = Registration.LIGHTSOURCE.get();
+        //LightSource light_source = Registration.LIGHTSOURCE.get();
     }
 }
