@@ -1,0 +1,15 @@
+{
+  "item.addedlamps.light_pickaxe":"Light Pickaxe",
+  "item.addedlamps.light_hoe": "Light Hoe",
+  "item.addedlamps.light_axe": "Light Axe",
+  "item.addedlamps.light_shovel": "Light Shovel",
+  "item.addedlamps.light_sword": "Light Sword",
+  "item.addedlamps.glowstick": "GlowStick",
+
+
+  "message.light_pickaxe.tooltip": "A Glowing Pickaxe",
+  "message.light_hoe.tooltip": "A Glowing Hoe",
+  "message.light_axe.tooltip": "A Glowing Axe",
+  "message.light_shovel.tooltip": "A Glowing Shovel",
+  "message.light_sword.tooltip": "A Glowing Sword"
+}
