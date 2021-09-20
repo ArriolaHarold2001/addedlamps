@@ -5,11 +5,12 @@
   "item.addedlamps.light_shovel": "Light Shovel",
   "item.addedlamps.light_sword": "Light Sword",
   "item.addedlamps.glowstick": "GlowStick",
-
+  "item.addedlamps.light_source": "Light Source",
 
   "message.light_pickaxe.tooltip": "A Glowing Pickaxe",
   "message.light_hoe.tooltip": "A Glowing Hoe",
   "message.light_axe.tooltip": "A Glowing Axe",
   "message.light_shovel.tooltip": "A Glowing Shovel",
-  "message.light_sword.tooltip": "A Glowing Sword"
+  "message.light_sword.tooltip": "A Glowing Sword",
+  "message.light_source.tooltip":"The source of all light tools"
 }
