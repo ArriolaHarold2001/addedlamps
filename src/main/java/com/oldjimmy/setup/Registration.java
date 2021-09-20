@@ -22,6 +22,7 @@ public class Registration {
 
     //register tools
     public static final RegistryObject<LightPickaxe> LIGHTPICKAXE = ITEMS.register("light_pickaxe", () -> new LightPickaxe(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()));
+    //public static final Item LIGHTPICKAXE = registerItem("light_pickaxe", new Item((new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
     public static final RegistryObject<LightHoe> LIGHTHOE = ITEMS.register("light_hoe", () -> new LightHoe(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()));
     public static final RegistryObject<LightAxe> LIGHTAXE = ITEMS.register("light_axe", () -> new LightAxe(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()));
     public static final RegistryObject<LightShovel> LIGHTSHOVEL = ITEMS.register("light_shovel", () -> new LightShovel(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()));
