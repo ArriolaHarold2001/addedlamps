@@ -28,5 +28,5 @@ public class Registration {
     public static final RegistryObject<LightShovel> LIGHTSHOVEL = ITEMS.register("light_shovel", () -> new LightShovel(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()));
     public static final RegistryObject<LightSword> LIGHTSWORD = ITEMS.register("light_sword", () -> new LightSword(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant()));
 
-    //public static final RegistryObject<LightSource> LIGHTSOURCE = ITEMS.register("light_source", () -> new LightSource(new Item.Properties().tab(CreativeModeTab.TAB_BREWING).fireResistant()));
+    public static final RegistryObject<LightSource> LIGHTSOURCE = ITEMS.register("light_source", () -> new LightSource(new Item.Properties().tab(CreativeModeTab.TAB_BREWING).fireResistant()));
 }

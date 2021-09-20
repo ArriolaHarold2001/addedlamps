@@ -34,7 +34,7 @@ public class Recipes extends RecipeProvider {
                 .pattern("xxx")
                 .pattern(" i ")
                 .pattern(" i ")
-                .define('x', Tags.Items.OBSIDIAN)
+                .define('x', AddedLamps.Items.LightSource
                 .define('i', Tags.Items.OBSIDIAN)
                 .group("addedlamps")
                 .unlockedBy("sticks", InventoryChangeTrigger.TriggerInstance.hasItems(STICK))
