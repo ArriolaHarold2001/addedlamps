@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "addedlamps",
+  "pattern": [
+    "xxx",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:obsidian"
+    },
+    "i": {
+      "tag": "forge:obsidian"
+    }
+  },
+  "result": {
+    "item": "addedlamps:light_pickaxe"
+  }
+}
